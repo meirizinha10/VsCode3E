@@ -6,7 +6,7 @@
     --botao-ativo: #3A375E;
     --botao-inativo: rgba(58, 55, 94, 0.5);
     --texto-fundo: rgba(58, 55, 94, 0.3);
-} 
+}
 body{
     background-color: var(--cor-de-fundo);
     color: var(--branco);
@@ -17,7 +17,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
@@ -50,16 +50,14 @@ body{
     .botoes{
         display: flex;
     }
-    .botao:first-child{ 
+    .botao:first-child{
         border-radius: 40px 0 0 0;
     }
-    .botao:last-child{ 
+    .botao:last-child{
         border-radius: 0 40px 0 0;
     }
 }
-
 .ativo{
-        background-color: var(--botao-ativo);
-        border-bottom: 4px solid var(--verde);
-    }
-
+    background-color: var(--botao-ativo);
+    border-bottom: 4px solid var(--verde);
+}
